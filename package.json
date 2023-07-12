@@ -1,0 +1,38 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "This is a simple Productivity tool for bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/dist/index.js",
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn --transpile-only index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lizzybera/TaskManager-BackEnd.git"
+  },
+  "keywords": [
+    "bootcamp",
+    "productivity",
+    "coding",
+    "simple",
+    "CodeLab"
+  ],
+  "author": "Okorie Elizabeth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lizzybera/TaskManager-BackEnd/issues"
+  },
+  "homepage": "https://github.com/lizzybera/TaskManager-BackEnd#readme",
+  "dependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.1"
+  }
+}
